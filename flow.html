@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>flow map</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="./leaflet.css" media="all" rel="stylesheet">
+  <link href="./flowmaps.css" media="all" rel="stylesheet">
+</head>
+<body>
+
+<div id="cart-header-container">
+  <div id="cart-header">Flow Maps 流向地图</div>
+</div>
+<div class='more' style="margin-top: 10px;"></div>
+<div id="mapDiv">
+  <div class="map_control" style='width:130px;'>
+    <div>
+      <label id="line_info" style="float:left; margin-top: 1px;color: #474444;"></label>
+    </div>
+
+    <div id="news-sum" style=" display: none;">
+      
+      <label id="news_info" style="float: left;color: red;"></label>
+    </div>
+
+  </div>
+
+  <div id='map' style='height:650px;background: #fff;'>
+    <div style="position: absolute;top: 10px; z-index: 100000; left:300px;">
+      <h3 style="color: #737373; float: left;">全国各地区域联系强度-地名共现新闻数量</h3>
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="./10000.js"></script>
+<script type="text/javascript" src="./data.js"></script>
+<script type="text/javascript" src="./jquery.js"></script>
+<script  type="text/javascript" src="./leaflet.js"></script>
+<script  type="text/javascript" src="./flow.js"></script>
+</body>
+</html>
